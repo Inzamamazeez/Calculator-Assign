@@ -1,0 +1,44 @@
+*{
+    background-image: url('./pexels-miguel-á-padriñán-19670.jpg');
+    background-size: cover;
+}
+.Main_container {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.inputs {
+    height: 5vh;
+    width: 22vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+}
+
+.actions {
+    height: 125px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.delete_action {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+}
